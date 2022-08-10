@@ -20,7 +20,11 @@
     },
     "claims": {
       "given_name": "FIRSTNAME",
-      "family_name": "LASTNAME"
+      "family_name": "LASTNAME",
+      "company" : "COMPANY",
+      "personal_email": "PERSONALEMAIL",
+      "company_email": "COMPANYEMAIL",
+      "job_role": "JOBROLE"
     }
   }
 }

@@ -107,8 +107,12 @@ mainApp.app.get('/api/issuer/issuance-request', async (req, res) => {
   }
   // here you could change the payload manifest and change the firstname and lastname
   if ( issuanceConfig.issuance.claims ) {
-    issuanceConfig.issuance.claims.given_name = "Megan";
-    issuanceConfig.issuance.claims.family_name = "Bowen";
+    issuanceConfig.issuance.claims.given_name = "Apostolos";
+    issuanceConfig.issuance.claims.family_name = "Giannakidis";
+    issuanceConfig.issuance.claims.personal_email = "ap.giannakidis@gmail.com";
+    issuanceConfig.issuance.claims.company_email = "ap.giannakidis@grecho.site";
+    issuanceConfig.issuance.claims.company = "Grecho";
+    issuanceConfig.issuance.claims.job_role = "Recruiter";
   }
 
   console.log( 'VC Client API Request' );

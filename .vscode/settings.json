@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/c67e1d40-26fb-42e7-96c7-ac6f35320d01/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/grecho-vc-issuer",
+    "appService.deploySubpath": "."
+}

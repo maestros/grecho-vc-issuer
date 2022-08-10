@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: #E0E0E0;
+    background-color: #8b9c98;
 }
 #wrap {
     margin: 0 auto;
@@ -37,6 +37,7 @@ body {
 }
 
 .small-text {
+  color: white;
   font-size: 16px;
 }
 
